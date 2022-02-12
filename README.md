@@ -1,9 +1,12 @@
 # Embedded VueJS SPA in Laravel
 
 ## Why
-Sometimes you don't want to split Frontend and Backend repositories, because one repository simplify development, debugging and delivery. But you also want a stateless API, because it my be simpler to split Frontend and Backend when the project will grow. This POC built over Laravel 9 demonstrate how to do this.
+Sometimes you don't want to split Frontend and Backend repositories, because one repository simplify development, debugging and delivery. But you also want a stateless API, because it solve a lot of problems & time when pushing the project into a docker hosting service. This POC built over Laravel 9 demonstrate how to do this.
 
 It can be used as a boilerplate to quickly start SPA development.
+
+## Todo
+- Add a DockerFile for push the project on a Docker hosting service.
 
 ## Features
 - Vue-i18n integration for easy translation (default French)
