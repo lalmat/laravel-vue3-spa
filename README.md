@@ -67,4 +67,4 @@ Everything has been configured. Just paste this in `.vscode/launch.json` file fr
 
 
 ## Note
-This POC don't use Axios. I've made a little JS (fetchLaravel.js) to call API. Take a look, footprint is awesome
+This POC doesn't use Axios. I've made a little JS file (`/ressources/js/fetchLaravel.js`) to call API based on the native javascript `fetch` API. Take a look.
